@@ -199,7 +199,8 @@ public class Main {
     - **Problem**: Write a program to generate and display `n` terms of a geometric progression based on user input for the first term, common ratio, and number of terms.
       Here are 10 basic coding problems focused on different operators in Java:
 
-### **1. Basic Arithmetic Operations**
+### Problems on Operator
+**1. Basic Arithmetic Operations**
 
 **Problem**: Write a Java program to perform basic arithmetic operations (addition, subtraction, multiplication, division, and modulus) on two integers provided by the user. Print the results of each operation.
 
@@ -213,7 +214,7 @@ Division: 3
 Modulus: 0
 ```
 
-### **2. Increment and Decrement Operators**
+**2. Increment and Decrement Operators**
 
 **Problem**: Write a Java program to demonstrate the use of increment (`++`) and decrement (`--`) operators. Initialize an integer variable to 10, increment it by 1, decrement it by 1, and print the values after each operation.
 
@@ -224,7 +225,7 @@ After Increment: 11
 After Decrement: 10
 ```
 
-### **3. Logical Operators**
+**3. Logical Operators**
 
 **Problem**: Write a Java program that takes two boolean variables `x` and `y`. Print the result of logical AND (`&&`), logical OR (`||`), and logical NOT (`!`) operations for these variables.
 
@@ -237,7 +238,7 @@ Logical NOT (x): false
 Logical NOT (y): true
 ```
 
-### **4. Bitwise AND and OR**
+**4. Bitwise AND and OR**
 
 **Problem**: Write a Java program to perform bitwise AND (`&`) and bitwise OR (`|`) operations on two integers `a` and `b`. Print the results in binary format.
 
@@ -248,7 +249,7 @@ Bitwise AND: 2 (0010 in binary)
 Bitwise OR: 7 (0111 in binary)
 ```
 
-### **5. Bitwise Shift Operators**
+**5. Bitwise Shift Operators**
 
 **Problem**: Write a Java program to perform left shift (`<<`) and right shift (`>>`) operations on an integer variable. Initialize the variable to `5` and perform the shifts by `2` positions.
 
@@ -259,7 +260,7 @@ Left Shift by 2: 20 (10100 in binary)
 Right Shift by 2: 1 (0001 in binary)
 ```
 
-### **6. Conditional Operator**
+**6. Conditional Operator**
 
 **Problem**: Write a Java program that uses the conditional (ternary) operator to determine if a number is even or odd. Initialize the number and print the result.
 
@@ -269,7 +270,7 @@ Right Shift by 2: 1 (0001 in binary)
 The number 7 is Odd
 ```
 
-### **7. Pre-increment and Post-increment**
+**7. Pre-increment and Post-increment**
 
 **Problem**: Write a Java program to show the difference between pre-increment (`++x`) and post-increment (`x++`). Initialize an integer variable and use both forms of increment in expressions. Print the results.
 
@@ -280,7 +281,7 @@ Post-increment result: 11
 Value after post-increment: 12
 ```
 
-### **8. Bitwise XOR**
+**8. Bitwise XOR**
 
 **Problem**: Write a Java program to perform a bitwise XOR (`^`) operation on two integers. Initialize the integers and print the result in binary format.
 
@@ -290,7 +291,7 @@ Value after post-increment: 12
 Bitwise XOR: 6 (0110 in binary)
 ```
 
-### **9. Combining Operators**
+**9. Combining Operators**
 
 **Problem**: Write a Java program that combines arithmetic and logical operators. Given two integers and a boolean variable, compute and print the results of various expressions involving both types of operators.
 
@@ -301,7 +302,7 @@ Bitwise XOR: 6 (0110 in binary)
 (a - b < 10) || !flag: true
 ```
 
-### **10. Complex Expressions**
+**10. Complex Expressions**
 
 **Problem**: Write a Java program that evaluates and prints the result of a complex expression involving multiple operators. Use the expression `((a + b) * (c - d) / e) % f` where `a`, `b`, `c`, `d`, `e`, and `f` are integer variables initialized with appropriate values.
 
