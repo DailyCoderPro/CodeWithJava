@@ -211,3 +211,88 @@ public class Main {
     }
 }
 ```
+## Problems on Flow Control
+**1. Check if a Number is Positive, Negative, or Zero**
+
+**Problem**: Write a program that takes an integer input and prints whether it is positive, negative, or zero.
+
+**2. Calculate the Grade Based on Score**
+
+**Problem**: Write a program that takes a score (0-100) and prints the corresponding grade using `if-else if-else` statements:
+- 90-100: A
+- 80-89: B
+- 70-79: C
+- 60-69: D
+- 0-59: F
+
+**3. Determine the Largest of Two Numbers**
+
+**Problem**: Write a Java program that takes two integers and prints the largest of the two.
+
+**4. Print the Name of the Month Based on Number**
+
+**Problem**: Write a program using a `switch` statement that takes a number from 1 to 12 and prints the corresponding month name.
+
+**5. Check for Leap Year**
+
+**Problem**: Write a program that takes a year as input and determines if it is a leap year or not.
+
+**6. Calculate the Factorial of a Number**
+
+**Problem**: Write a program to calculate the factorial of a number using `if-else` statements. The factorial of `n` is the product of all positive integers less than or equal to `n`.
+
+**7. Check if a Number is Even or Odd**
+
+**Problem**: Write a Java program to check if a given number is even or odd.
+
+**8. Print Day of the Week Based on Number**
+
+**Problem**: Write a program that takes a number from 1 to 7 and prints the corresponding day of the week using a `switch` statement.
+
+**9. Print Fibonacci Sequence Up to N Terms**
+
+**Problem**: Write a program to print the Fibonacci sequence up to `n` terms using `if-else` and loops.
+
+**10. Find the Largest of Three Numbers**
+
+**Problem**: Write a program that takes three integers and prints the largest of the three using nested `if-else` statements.
+
+**11. Calculate the Sum of Digits of a Number**
+
+**Problem**: Write a program to calculate the sum of the digits of a given number using `if-else` statements.
+
+**12. Determine the Quadrant of a Point**
+
+**Problem**: Write a program that takes the `x` and `y` coordinates of a point and determines which quadrant the point is in (Quadrant I, II, III, or IV) using `if-else` statements.
+
+**13. Print Multiples of a Number Up to a Limit**
+
+**Problem**: Write a program to print all multiples of a given number up to a specified limit using loops and `if` statements.
+
+**14. Convert Grade to Pass or Fail**
+
+**Problem**: Write a program that takes a student’s grade and prints “Pass” if the grade is 60 or above, and “Fail” otherwise.
+
+**15. Check if a Number is a Prime Number**
+
+**Problem**: Write a program to check if a given number is a prime number using `if-else` statements.
+
+**16. Create a Simple Calculator**
+
+**Problem**: Write a calculator program that performs addition, subtraction, multiplication, and division based on user input using `switch` statements.
+
+**17. Check if a Number is a Palindrome**
+
+**Problem**: Write a program to check if a given number is a palindrome (reads the same backward as forward) using `if-else` statements.
+
+**18. Print All Prime Numbers Up to N**
+
+**Problem**: Write a program to print all prime numbers up to a given number `n` using loops and `if` statements.
+
+**19. Generate a Multiplication Table**
+
+**Problem**: Write a program to generate and print a multiplication table for a given number `n` up to 10.
+
+**20. Determine the Largest Number in an Array**
+
+**Problem**: Write a program to find the largest number in an array of integers using loops and `if-else` statements.
