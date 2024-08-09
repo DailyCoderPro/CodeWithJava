@@ -134,6 +134,83 @@ public class Main {
     }
 }
 ```
+### Increment Decrement Operation
+1. **Post-increment and Post-decrement Operators:**
+    - What is the value of `a` after executing the expression `a++` in the statement `int x = a++ + b-- + ++a + --b;`?
+
+2. **Pre-increment and Pre-decrement Operators:**
+    - What is the value of `b` after executing the expression `--b` in the statement `int x = a++ + b-- + ++a + --b;`?
+
+3. **Order of Operations:**
+    - In the expression `int x = a++ + b-- + ++a + --b;`, in what order are the operations executed, and how does this affect the final value of `x`?
+
+4. **Initial Values Impact:**
+    - If `a = 5` and `b = 15` initially, what would be the final value of `x` in the expression `int x = a++ + b-- + ++a + --b;`?
+
+5. **Changing Values:**
+    - How do the values of `a` and `b` change throughout the execution of the expression `int x = a++ + b-- + ++a + --b;`?
+
+6. **Final Values of `a` and `b`:**
+    - What are the final values of `a` and `b` after the expression `int x = a++ + b-- + ++a + --b;` is executed, assuming initial values of `a = 10` and `b = 20`?
+
+7. **Understanding Compound Expressions:**
+    - Explain why the final value of `x` is `60` (or `61` as per the question) when executing the statement `int x = a++ + b-- + ++a + --b;` with initial values of `a = 10` and `b = 20`.
+
+8. **Increment/Decrement Operator Effects:**
+    - What would happen if the order of operations in the expression was changed, such as `int x = ++a + --b + a++ + b--;`?
+
+9. **Predicting Output:**
+    - Predict the output of the following code snippet:
+      ```java
+      int a = 7, b = 14;
+      int x = a++ + b-- + ++a + --b;
+      System.out.println("x: " + x + ", a: " + a + ", b: " + b);
+      ```
+
+10. **Debugging Logical Errors:**
+    - If the final value of `x` is expected to be `61` but the result is `60`, what could be the reason for this discrepancy in the expression `int x = a++ + b-- + ++a + --b;`?
+
+### Modulus Operator 
+
+### Problem 1: Basic Modulus Calculation
+- **Question:** Given two integers `a = 25` and `b = 7`, what is the result of `a % b`?
+
+
+### Problem 2: Modulus with Negative Numbers
+- **Question:** What is the result of `(-15) % 4`?
+
+
+### Problem 3: Check Even or Odd
+- **Question:** Write a Java function `isEven(int n)` that returns `true` if a number is even and `false` if it's odd. Use the modulus operator in your solution.
+
+
+### Problem 4: Modulus in a Loop
+- **Question:** Write a Java program that prints the remainder of dividing numbers from 1 to 10 by 3.
+
+
+### Problem 5: Find the Last Digit
+- **Question:** How can you find the last digit of a number using the modulus operator? Find the last digit of `1297`.
+
+
+### Problem 6: Circular Indexing
+- **Question:** Given an array of size `n`, how can you use the modulus operator to create a circular index that wraps around when it reaches the end of the array?
+
+
+### Problem 7: Time Calculation
+- **Question:** You are given `345` minutes. Convert this into hours and minutes using the modulus operator.
+
+
+### Problem 8: Divisibility Test
+- **Question:** Write a Java function `isDivisible(int num, int divisor)` that returns `true` if `num` is divisible by `divisor` and `false` otherwise.
+
+
+### Problem 9: Modulus with Large Numbers
+- **Question:** Compute `987654321 % 123456`. What is the result?
+
+### Problem 10: Modulus in Pattern Programming
+- **Question:** Write a Java program to print the first 20 numbers in the Fibonacci sequence. For each number, print its modulus when divided by 5.
+
+These problems should provide a solid understanding of how to use the modulus operator in different contexts.
 ### **Arithmetic Progression (AP) Problems**
 
 1. **Print First 10 Terms of AP**

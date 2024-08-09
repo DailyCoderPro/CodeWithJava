@@ -17,6 +17,15 @@ A variable is a container for storing data values. In Java, every variable must 
     - **Instance Variables**: Non-static fields declared outside any method but inside a class. These are object-specific.
     - **Static Variables**: Declared with the `static` keyword. They belong to the class rather than any instance of the class.
 
+### Primitive Data Type
+
+- byte (1 byte)
+- short (2 byte)
+- int (4 bytes)
+- float
+- double
+- char
+- boolean
 ### 2. **Non-Primitive Types**
 
 Non-primitive data types in Java are more complex than primitive types and include:
