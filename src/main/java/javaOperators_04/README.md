@@ -73,14 +73,17 @@ Bitwise operators work on bits and perform bit-by-bit operations.
   int result = 5 ^ 3; // result = 6 (0101 ^ 0011 = 0110)
   ```
 - **NOT (`~`)**: Inverts all the bits of the operand.
-  ```java
-  int result = ~5; // result = -6 (inverts 0101 to 1010, which is -6 in two's complement form)
-  ```
+    `Note: ~x =  -(x + 1)`
+    ```java
+    int result = ~5; // result = -6 (inverts 0101 to 1010, which is -6 in two's complement form)
+    ```
 - **Left Shift (`<<`)**: Shifts the bits to the left.
+    `Note: x << n -> x * 2**n`
   ```java
   int result = 5 << 1; // result = 10 (0101 << 1 = 1010)
   ```
 - **Right Shift (`>>`)**: Shifts the bits to the right.
+    `NOTE: x >> n -> x / 2**n`
   ```java
   int result = 5 >> 1; // result = 2 (0101 >> 1 = 0010)
   ```
