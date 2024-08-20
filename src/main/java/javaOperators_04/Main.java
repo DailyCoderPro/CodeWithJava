@@ -173,5 +173,23 @@ public class Main {
 //        sum of 40 digit = 40/2(2 + 80) = 20*82 = 1640
         //
 
+        // a = 10 d = 4 num = 216
+        boolean isInAp = true;
+        int a = 10;
+        int d = 4;
+        int num = 22;
+
+        isInAp = (num - a) % d == 0;
+//        while (isInAp){
+//            nthTerm += d;
+//            if(nthTerm == num ){
+//                break;
+//            }else if(nthTerm > num){
+//                isInAp = false;
+//                break;
+//            }
+//        }
+        System.out.println(isInAp);
+
     }
 }
