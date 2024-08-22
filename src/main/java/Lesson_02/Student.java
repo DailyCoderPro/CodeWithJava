@@ -1,4 +1,4 @@
-package javaVariableAndDatatypes_02;
+package Lesson_02;
 
 public class Student {
     public int rollNo;

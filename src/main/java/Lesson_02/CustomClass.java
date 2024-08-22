@@ -1,4 +1,4 @@
-package javaVariableAndDatatypes_02;
+package Lesson_02;
 
 public class CustomClass {
     public static void main(String[] args) {
